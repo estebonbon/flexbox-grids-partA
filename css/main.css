@@ -97,8 +97,9 @@ textarea {
 
 
 html {
-  background-color: #fff;
+  background-color: #f4d8bdd6;
   height: 100%;
+  width: 100%;
 }
 
 body {
@@ -113,6 +114,9 @@ body {
   font-weight: 700;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+ 
 
 }
 
@@ -120,13 +124,17 @@ body {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
-  height: 300px;
+  font-size: 1em;
+  background-color: #a9a1a1;
+  height: auto;
   display: flex;
   width: 30%;
   justify-content: center;
   align-items:center;
+  padding: 0 12px;
+  border-radius: 1em;
+
+  
 }
 
 
