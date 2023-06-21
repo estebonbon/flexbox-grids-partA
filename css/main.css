@@ -103,40 +103,74 @@ html {
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
-  padding: 2em;
+  padding: 0 2em;
   font-size: 1.25em;
   height: 100%;
+  display: flex;
+  justify-content: center;
 }
 
-.wrapper {
+.flex-container {
   /*add display:flex and set justify-content to space-between*/
-  font-weight: 700;
   display: flex;
+  flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: nowrap;
- 
+  max-width: 1200px;
+}
+
+header,
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+h1 {
+    font-style: 'Permanent Marker', cursive;
+    font-size: 2em;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #fff;
 
 }
 
-.div-1, .div-2, .div-3 {
+main p {
+    font-size: 1.35em;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.flex-items {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   color: #fff;
   line-height: 1.5em;
   font-size: 1em;
   background-color: #a9a1a1;
   height: auto;
-  display: flex;
-  width: 30%;
-  justify-content: center;
-  align-items:center;
-  padding: 0 12px;
   border-radius: 1em;
-
-  
+  width: 30%;
+  padding: 0 8px;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
+span {
+    font-style:'Permanent Marker', cursive;
+}
+
+footer {
+    border-top:1px solid #fff;
+}
+
+footer i {
+    padding: 30px 20px 0 0;
+}
 
 
 
